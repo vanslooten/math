@@ -1,0 +1,62 @@
+#question {
+    margin-bottom: 10px;
+}
+
+#results div {
+    margin-bottom: 2px;
+}
+
+input[name=answer] {
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0);
+    /* fully transparant */
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+footer button {
+    width: 15vw;
+    height: 15vw;
+    margin: 5px;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+footer #fbar {
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+footer #fbar * {
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+}
+
+#bad {
+    background-color: red;
+}
+
+#good {
+    background-color: green;
+}
+
+@media screen and (min-width:800px) {
+    /* for large screens*/
+    body {
+        font-size: 5em;
+    }
+    footer button {
+        width: 5vw;
+        height: 5vw;
+    }
+}
